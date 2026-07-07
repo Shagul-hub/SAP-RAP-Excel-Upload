@@ -18,4 +18,17 @@ One thing that tripped me up: `@Semantics.largeObject` alone doesn't make the fi
 
 The whole thing is version controlled through abapGit and pushed here. If you want to run it, create a package in your system, link this repo through the abapGit ADT plugin, pull the objects, activate them in dependency order starting from the tables, and publish the `ZUI_EXCEL_UPL_V2` service binding. That's it.
 
-**Tech used:** SAP BTP ABAP Environment, SAP RAP (managed non-draft), CDS Views, Behavior Definitions, xco_cp_xlsx API, OData V2, Fiori Elements, Eclipse ADT, abapGit
+---
+
+## Stack
+
+- SAP BTP ABAP Environment
+- SAP RAP — managed, non-draft
+- CDS Views + Behavior Definitions
+- xco_cp_xlsx API (Excel read/write)
+- OData V2 + Fiori Elements
+- Eclipse ADT + abapGit
+
+---
+
+Built by Shagul A — SAP Certified Back-End Developer, ABAP Cloud
