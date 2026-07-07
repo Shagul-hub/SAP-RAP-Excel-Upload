@@ -2,6 +2,10 @@
 
 Every SAP project ends the same way — someone's tracking development objects in a spreadsheet. This fixes that.
 
+![List Report](list-report.png)
+![Object Page](object-page.png)
+![Developed Objects](developed-objects.png)
+
 The app is built entirely on SAP RAP — no classic ABAP, no external plugins, nothing outside of ABAP Cloud. The idea is straightforward: a team lead opens the app in Fiori, creates a record for a developer, downloads a pre-generated Excel template, fills in the development objects, uploads it back, and the system automatically reads the file and saves every row as a structured record. That's the whole flow.
 
 On the technical side, it's a managed RAP business object with a parent-child composition. The parent table stores the developer's ID, development ID, and the Excel file itself as a raw binary field. The child table stores the parsed object rows — object type, object name, serial number. The entire thing is exposed through an OData V2 service binding with a Fiori Elements List Report and Object Page.
