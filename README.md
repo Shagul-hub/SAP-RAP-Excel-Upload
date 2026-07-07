@@ -2,6 +2,8 @@
 
 Every SAP project ends the same way — someone's tracking development objects in a spreadsheet. This fixes that.
 
+**Demo:** [Full walkthrough video on LinkedIn](https://www.linkedin.com/posts/shagul737_sap-abap-saprap-ugcPost-7478253946944462850-g_Zy/)
+
 ![List Report](list-report.png)
 ![Object Page](object-page.png)
 ![Developed Objects](developed-objects.png)
