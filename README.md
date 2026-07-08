@@ -4,9 +4,7 @@ Every SAP project ends the same way — someone's tracking development objects i
 
 **Demo:** [Full walkthrough video on LinkedIn](https://www.linkedin.com/posts/shagul737_sap-abap-saprap-ugcPost-7478253946944462850-g_Zy/)
 
-![List Report](list-report.png)
-![Object Page](object-page.png)
-![Developed Objects](developed-objects.png)
+[![Click to watch demo](object-page.png)](https://www.linkedin.com/posts/shagul737_sap-abap-saprap-ugcPost-7478253946944462850-g_Zy/)
 
 The app is built entirely on SAP RAP — no classic ABAP, no external plugins, nothing outside of ABAP Cloud. The idea is straightforward: a team lead opens the app in Fiori, creates a record for a developer, downloads a pre-generated Excel template, fills in the development objects, uploads it back, and the system automatically reads the file and saves every row as a structured record. That's the whole flow.
 
